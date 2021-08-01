@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: 291eeea86ac905e45a882c419be0b7b2
+timeCreated: 1489095030
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: back
+    100004: bones
+    100006: booty
+    100008: fox
+    100010: head
+    100012: LeftArm1
+    100014: LeftArm2
+    100016: LeftHand
+    100018: LeftLeg1
+    100020: LeftLeg2
+    100022: LeftLeg3
+    100024: LeftToe
+    100026: neck1
+    100028: neck2
+    100030: RightArm1
+    100032: RightArm2
+    100034: RightHand
+    100036: RightLeg1
+    100038: RightLeg2
+    100040: RightLeg3
+    100042: RightToe
+    100044: tail1
+    100046: tail2
+    100048: tail3
+    100050: tailIK
+    400000: //RootNode
+    400002: back
+    400004: bones
+    400006: booty
+    400008: fox
+    400010: head
+    400012: LeftArm1
+    400014: LeftArm2
+    400016: LeftHand
+    400018: LeftLeg1
+    400020: LeftLeg2
+    400022: LeftLeg3
+    400024: LeftToe
+    400026: neck1
+    400028: neck2
+    400030: RightArm1
+    400032: RightArm2
+    400034: RightHand
+    400036: RightLeg1
+    400038: RightLeg2
+    400040: RightLeg3
+    400042: RightToe
+    400044: tail1
+    400046: tail2
+    400048: tail3
+    400050: tailIK
+    4300000: fox
+    7400000: idle
+    7400002: trot
+    9500000: //RootNode
+    13700000: fox
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 1
+      - path: bones/back
+        weight: 1
+      - path: bones/back/booty
+        weight: 1
+      - path: bones/back/booty/tail1
+        weight: 1
+      - path: bones/back/booty/tail1/tail2
+        weight: 1
+      - path: bones/back/booty/tail1/tail2/tail3
+        weight: 1
+      - path: bones/back/LeftArm1
+        weight: 1
+      - path: bones/back/LeftArm1/LeftArm2
+        weight: 1
+      - path: bones/back/LeftArm1/LeftArm2/LeftHand
+        weight: 1
+      - path: bones/back/LeftLeg1
+        weight: 1
+      - path: bones/back/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: bones/back/LeftLeg1/LeftLeg2/LeftLeg3
+        weight: 1
+      - path: bones/back/LeftLeg1/LeftLeg2/LeftLeg3/LeftToe
+        weight: 1
+      - path: bones/back/neck2
+        weight: 1
+      - path: bones/back/neck2/neck1
+        weight: 1
+      - path: bones/back/neck2/neck1/head
+        weight: 1
+      - path: bones/back/RightArm1
+        weight: 1
+      - path: bones/back/RightArm1/RightArm2
+        weight: 1
+      - path: bones/back/RightArm1/RightArm2/RightHand
+        weight: 1
+      - path: bones/back/RightLeg1
+        weight: 1
+      - path: bones/back/RightLeg1/RightLeg2
+        weight: 1
+      - path: bones/back/RightLeg1/RightLeg2/RightLeg3
+        weight: 1
+      - path: bones/back/RightLeg1/RightLeg2/RightLeg3/RightToe
+        weight: 1
+      - path: bones/tailIK
+        weight: 1
+      - path: fox
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: trot
+      takeName: bonesAction
+      firstFrame: 48
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 1
+      - path: bones/back
+        weight: 1
+      - path: bones/back/booty
+        weight: 1
+      - path: bones/back/booty/tail1
+        weight: 1
+      - path: bones/back/booty/tail1/tail2
+        weight: 1
+      - path: bones/back/booty/tail1/tail2/tail3
+        weight: 1
+      - path: bones/back/LeftArm1
+        weight: 1
+      - path: bones/back/LeftArm1/LeftArm2
+        weight: 1
+      - path: bones/back/LeftArm1/LeftArm2/LeftHand
+        weight: 1
+      - path: bones/back/LeftLeg1
+        weight: 1
+      - path: bones/back/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: bones/back/LeftLeg1/LeftLeg2/LeftLeg3
+        weight: 1
+      - path: bones/back/LeftLeg1/LeftLeg2/LeftLeg3/LeftToe
+        weight: 1
+      - path: bones/back/neck2
+        weight: 1
+      - path: bones/back/neck2/neck1
+        weight: 1
+      - path: bones/back/neck2/neck1/head
+        weight: 1
+      - path: bones/back/RightArm1
+        weight: 1
+      - path: bones/back/RightArm1/RightArm2
+        weight: 1
+      - path: bones/back/RightArm1/RightArm2/RightHand
+        weight: 1
+      - path: bones/back/RightLeg1
+        weight: 1
+      - path: bones/back/RightLeg1/RightLeg2
+        weight: 1
+      - path: bones/back/RightLeg1/RightLeg2/RightLeg3
+        weight: 1
+      - path: bones/back/RightLeg1/RightLeg2/RightLeg3/RightToe
+        weight: 1
+      - path: bones/tailIK
+        weight: 1
+      - path: fox
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
